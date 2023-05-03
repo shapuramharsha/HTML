@@ -1,12 +1,40 @@
 body {
-    margin: 20px;
-    background:orange;
-    margin: 20%;
+    height: 100%;
+       justify-items: center;
+  }
+  body{background-color: black;}
+  
+   .mydiv {
+    width:100%;
+    height:100%;
+    color:black;
+    font-weight:bold;
+    animation: myanimation 10s infinite;
   }
   h1{
-    color:black;
-    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
   }
- 
-            
+  @keyframes myanimation {
+    0% {background-color: red;}
+    25%{background-color:yellow;}
+    50%{background-color:green;}
+    75%{background-color:brown;}
+    100% {background-color: red;}
+  }
+  #parent{
+    width: fit-content;
+    margin: auto;
+  }
+  button
+{
+    display: block;;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 500px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
